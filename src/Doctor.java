@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -19,7 +18,7 @@ public class Doctor extends User{
     }
 
     //Método contructor:
-    Doctor(String name, String speciality, String email){
+    Doctor(String name, String speciality){
         super(name, email);
         System.out.println("El nombre del Doctor es: " + name + " y su especialidad es: " + speciality);
         this.speciality = speciality;
